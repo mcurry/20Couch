@@ -1,0 +1,1 @@
+UPDATE `settings` SET `value` = "1.07" WHERE `key` = "version";

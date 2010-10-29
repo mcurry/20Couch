@@ -1,0 +1,153 @@
+/* =General
+-----------------------------------------------------------------------------*/
+html, body, ul, ol, li, p,
+h1, h2, h3, h4, h5, h6,
+form, fieldset, a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-size: 100.01%;
+  font-family: arial, sans-serif;
+}
+
+/* =Messages
+-----------------------------------------------------------------------------*/
+.message {
+	padding: 2px 5px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+#flashMessage,
+#authMessage {
+	color: #B51F29;
+	border: 1px solid #80250F;
+	background: #FFEFEF;
+}
+	#settings #flashMessage {
+		width: 300px;
+		margin: 10px;
+	}
+
+/* =Anony
+-----------------------------------------------------------------------------*/
+#anony {
+	width: 600px;
+	margin: 15px auto;
+}
+
+/* =Login and Install Forms
+-----------------------------------------------------------------------------*/
+.anony-form {
+	margin: 0 auto;
+	padding: 15px;
+	width: 350px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	.anony-form h1 {
+		text-align: center;
+		font-weight: bold;
+		width: 100%;
+		font-size: 1em;
+		background: #C9D7F1;
+		margin-bottom: 15px;
+		padding: 2px 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+	}
+	.anony-form .next {
+		margin-top: 15px;
+		float: right;
+	}
+	.anony-form .pirate {
+		margin-top: 15px;
+	}
+	.anony-form {
+		overflow: auto;
+	}
+	.anony-form .checkbox {
+		clear: both;
+		width: 155px;
+	}
+	.anony-form .checkbox input {
+		margin-top: 4px;
+		float: right;
+	}
+	.anony-form .text input,
+	.anony-form .password input {
+		width: 150px;
+	}
+	.anony-form .submit {
+		width: 290px;
+		float: left;
+	}
+
+/* =Forms
+-----------------------------------------------------------------------------*/
+.form-wrapper {
+	margin: 15px auto;
+	padding: 15px;
+	width: 300px;
+	border: 1px solid #ccc;
+	overflow: auto;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.input {
+	margin: 5px 0;
+	clear: both;
+}
+	.input label {
+		width: 125px;
+		float: left;
+		text-align: right;
+		padding-right: 5px;
+		padding-left: 5px;
+		margin-top: 2px;
+		font-weight: bold;
+	}
+	.submit {
+		text-align: right;
+	}
+	
+/* =Checklist
+-----------------------------------------------------------------------------*/
+table.checklist {
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 1px solid #999;
+	width: 100%;
+}
+	table.checklist th {
+		text-align: left;
+	}
+	table.checklist td {
+		text-align: center;
+	}
+	table.checklist th,
+	table.checklist td {
+		border: 1px solid #999;
+		padding: 2px 5px;
+	}
+	table.checklist td.help {
+		text-align: left;
+	}
+
+/* =Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: #C9D7F1;
+	text-align: center;
+	padding: 5px 0;
+}
+	#footer a {
+		margin-right: 25px;
+	}

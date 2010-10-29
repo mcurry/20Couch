@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-12-09 16:57-0500\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+################################################################################
+# Provider Types
+################################################################################
+msgid "TwitterAccount"
+msgstr "Account"
+
+msgid "TwitterSearch"
+msgstr "Tag"
+
+msgid "TwitterFollow"
+msgstr "Ninja Follow"
+
+msgid "TwitterReply"
+msgstr "Reply"
+
+################################################################################
+# Labels
+################################################################################
+msgid "Show Remaining Requests"
+msgstr "Show Remaining API Requests"
+
+################################################################################
+# Help
+################################################################################
+msgid "retweet_method_help"
+msgstr "Choose between the Twitter native retweet or the old style manual retweet."
+
+msgid "show_remaining_requests_help"
+msgstr "Twitter limits you to 150 API requests per hour.  If you are tracking A TON of stuff with frequent updates this may become an issue.  You can turn this on to keep an eye on your usage."
+
+################################################################################
+# Messages
+################################################################################
+msgid "You are not authorized to access that location."
+msgstr "Thou shall not pass until thou enters thou username and passcode!"
+
+msgid "Login failed. Invalid username or password."
+msgstr "Your pathetic hacking attempt has failed.  I will now botnet your computer and we will collectivly laugh at you."

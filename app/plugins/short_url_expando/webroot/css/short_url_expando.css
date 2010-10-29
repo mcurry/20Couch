@@ -1,0 +1,10 @@
+#expando-full {
+    position: fixed;
+    z-index: 999;
+    background-color: #ecf5fd;
+    padding: 2px 5px;
+		border: 1px solid #ccc;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		display: none;
+}

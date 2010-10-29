@@ -1,0 +1,1 @@
+<?php echo $js->object($result) ?>
