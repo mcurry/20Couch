@@ -18,7 +18,7 @@ Install
 Optional
 ========
 * Add a cron entry to run the updated behind the scenes (* * * * * sh /path/to/20couch/20couch-update.sh)
-* Set your webroot to 20couch-dir/app/webroot instead of just 20couch-dir
+* Set your webroot to /path/to/20couch/app/webroot instead of just /path/to/20couch
 
 License
 =======
