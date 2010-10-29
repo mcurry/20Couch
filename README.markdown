@@ -1,11 +1,8 @@
-/***************************************************************************
- 20Couch
-
- Copyright 2009-2010 Matt Curry.
- This code cannot be redistributed without permission from matt@20couch.com
-
- More info at: http://www.20couch.com
-****************************************************************************/
+About
+=====
+20Couch - A Google Reader like Twitter Client
+[20Couch.com](http://www.20couch.com)
+By Matt Curry <matt@pseudocoder.com>
 
 Install
 =======
@@ -22,3 +19,25 @@ Optional
 ========
 * Add a cron entry to run the updated behind the scenes (* * * * * sh /path/to/20couch/20couch-update.sh)
 * Set your webroot to 20couch-dir/app/webroot instead of just 20couch-dir
+
+License
+=======
+Copyright (c) 2010 Matt Curry
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
