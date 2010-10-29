@@ -49,6 +49,7 @@ if(Configure::read('debug')) {
 Configure::write('Update.file', '20couch-latest.zip');
 
 Configure::write('Version', '1.12');
+Configure::write('staticAssets', false);
 Configure::write('demo', false);
 
 $services = array(1 => 'TwitterAccount', 2 => 'TwitterSearch', 3 => 'TwitterFollow', 4 => 'TwitterReply');

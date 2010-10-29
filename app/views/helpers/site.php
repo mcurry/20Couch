@@ -107,7 +107,7 @@ class SiteHelper extends AppHelper {
 	}
 
 	function staticVersion($file) {
-		if (Configure::read('debug') == 0) {
+		if (Configure::read('staticAssets') && Configure::read('debug') == 0) {
 			return $file . '-' . Configure::read('Version');
 		} else {
 			return $file;
