@@ -25,6 +25,10 @@ Optional
 
 Requirements
 ============
+* Apache
+* MySQL
+* PHP 4 or 5
+
 
 License
 =======
