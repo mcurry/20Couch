@@ -1,7 +1,9 @@
 About
 =====
 20Couch - A Google Reader like Twitter Client
+
 [20Couch.com](http://www.20couch.com)
+
 By Matt Curry <matt@pseudocoder.com>
 
 Install
