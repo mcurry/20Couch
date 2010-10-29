@@ -1,3 +1,9 @@
+Version 1.12 (October 29, 2010)
+=============================
+Features
+--------
+* New mobile interface built on [jQuery Mobile](http://jquerymobile.com).
+
 Version 1.11 (June 05, 2010)
 =============================
 Features
