@@ -48,7 +48,7 @@ if(Configure::read('debug')) {
 }
 Configure::write('Update.file', '20couch-latest.zip');
 
-Configure::write('Version', '1.12');
+Configure::write('Version', '1.13');
 Configure::write('staticAssets', false);
 Configure::write('demo', false);
 

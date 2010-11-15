@@ -94,5 +94,5 @@ INSERT INTO `%%PREFIX%%settings` (`id`, `key`, `value`, `editable`) VALUES
 	(1, 'language', 'en', 0),
 	(2, 'retweet_method', 'api', 1),
 	(3, 'show_remaining_requests', 0, 1),
-	(4, 'version', '1.12', 0),
+	(4, 'version', '1.13', 0),
 	(5, 'registration_key', '', 1);
