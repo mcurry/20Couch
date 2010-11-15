@@ -33,9 +33,9 @@
 		echo $this->element('layouts/meta');
 
 		if(!empty($mobile)) {
-			echo $html->script('http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js');
-			echo $html->script('http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js');
-			echo $html->css('http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css');
+			echo $html->script('http://ajax.microsoft.com/ajax/jQuery/jquery-1.4.4.min.js');
+			echo $html->script('http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.js');
+			echo $html->css('http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.css');
 		} else {
 			echo $html->css($site->staticVersion('anony'));
 		}

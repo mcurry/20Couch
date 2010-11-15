@@ -1,14 +1,14 @@
 <?php
 	echo $this->element('layouts/meta');
 	
-	echo $html->script('http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js');
+	echo $html->script('http://ajax.microsoft.com/ajax/jQuery/jquery-1.4.4.min.js');
 
 	if(empty($mobile)) {
 		echo $html->script('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js');
 		echo $html->css('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/redmond/jquery-ui.css');
 	} else {
-		echo $html->script('http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js');
-		echo $html->css('http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css');
+		echo $html->script('http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.js');
+		echo $html->css('http://code.jquery.com/mobile/1.0a2/jquery.mobile-1.0a2.min.css');
 	}
 	
 	echo $html->css($site->staticVersion('common'));
