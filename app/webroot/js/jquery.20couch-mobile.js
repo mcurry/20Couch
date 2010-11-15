@@ -5,5 +5,5 @@
 })(jQuery);
 
 $('div').live('pagecreate',function(){
-  $("a[href^=http]").attr("rel", "external");
+  $("a[href^=http]").attr("rel", "external").attr("target", "_blank");
 });
