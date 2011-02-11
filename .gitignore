@@ -1,3 +1,4 @@
 cake
 database.php
 app/tmp/cache*
+*.komodoproject
