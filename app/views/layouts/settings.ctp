@@ -33,7 +33,7 @@
 		echo $html->meta('icon', 'favicon.png');
 		echo $html->css($site->staticVersion('style'));
 		
-		echo $html->script('http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js');
+		echo $html->script('http://code.jquery.com/jquery-1.5.min.js');
 		echo $scripts_for_layout;
 	?>
 </head>
