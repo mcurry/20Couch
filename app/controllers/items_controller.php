@@ -70,7 +70,7 @@ class ItemsController extends AppController {
 		}
 
 		$items = $this->paginate();
-		if(empty($items) && !$this->RequestHandler->isAjax()) {
+		if(empty($items) && $this->RequestHandler->isMobile()) {
 			$this->redirect(array('controller' => 'providers', 'action' => 'dashboard'));
 		}
 		
